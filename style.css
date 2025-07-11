@@ -71,15 +71,15 @@ nav h1{
 .action-section{
   width: 100%;
   padding: 0 10vw;
-  margin:100px auto;
-  border: 2px solid;
+  margin:80px auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 220px;
 }
 .text h1{
   color: rgb(7, 7, 58);
-  font-size: 2.5vw;
+  font-size: 3vw;
   font-family:sans-serif;
   margin-bottom: 10px;
 }
@@ -87,9 +87,13 @@ nav h1{
   color: gray;
   line-height: 20px;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 .text button{
   height: 50px;
   box-shadow: 5px 4px 0px black;
 }
-
+.action-section img{
+  border-radius: 50px;
+  padding: 10px;
+}
