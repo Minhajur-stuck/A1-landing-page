@@ -97,3 +97,47 @@ nav h1{
   border-radius: 50px;
   padding: 10px;
 }
+.product-user{
+  width: 100%;
+  margin-bottom: 80px;
+}
+.inner-div{
+  width: 1050px;
+  height: 300px;
+  background-color: #4d47ff46;
+  margin:80px auto;
+  border-radius: 30px;
+}
+.user-detail{
+  padding: 50px 140px;
+}
+.center-align{
+  text-align: center;
+}
+.user-detail-h1{
+  margin-bottom: 30px;
+  color: rgb(7, 7, 58);
+  font-size: 2.5vw;
+  font-family:sans-serif;
+}
+.detail{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.border-radius{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(171, 218, 210, 0.178);
+}
+.detail h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 70px;
+  color: rgb(75, 75, 170);
+}
+.detail p{
+  text-align: center;
+  color: rgba(7, 7, 58, 0.781);
+  font-family: verdana;
+}
