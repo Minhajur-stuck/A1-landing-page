@@ -71,7 +71,7 @@ nav h1{
 .action-section{
   width: 100%;
   padding: 0 10vw;
-  margin:80px auto;
+  margin:130px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,4 +140,55 @@ nav h1{
   text-align: center;
   color: rgba(7, 7, 58, 0.781);
   font-family: verdana;
+}
+.user-feedback{
+  width: 1050px;
+  height: 350px;
+  margin: 150px auto;
+}
+.user-feedback h1{
+  margin-bottom: 50px;
+  color: rgb(7, 7, 58);
+  font-size: 3vw;
+  font-family:sans-serif;
+}
+.comment-container{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.comment{
+  padding: 10px;
+}
+.comment h3{
+  font-family: serif;
+  margin-bottom: 10px;
+}
+.comment h4{
+  color: rgb(59, 59, 59);
+  font-family: sans-serif;
+}
+
+.comment-text{
+  color: rgba(0, 0, 0, 0.918);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.image-div{
+  margin-bottom: 20px;
+}
+.profile{
+  width: 40px;
+  height: 40px;
+  border-radius:20px;
+}
+.reviewer-name{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviewer-name p{
+  color: rgb(68, 68, 68);
 }
